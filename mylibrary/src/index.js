@@ -1,6 +1,8 @@
-// src/index.js
-import Button from './components/button.vue'
-import Modal from './components/Modal.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
+
+import Button from './components/button.vue';
+import Modal from './components/Modal.vue';
 import MyAlert from './components/MyAlert.vue';
 import CardDatePicker from './components/CardDatePicker.vue';
 import IftaLabel from './components/IftaLabel.vue';
@@ -11,19 +13,21 @@ import Accordion from './components/Accordion.vue';
 import AccordionPanel from './components/AccordionPanel.vue';
 import FormWithCascadeSelect from './components/FormWithCascadeSelect.vue';
 
+// Vue uygulamasını oluştur ve bileşenleri kaydet
+const app = createApp(App);
 
+app.component('Button', Button);
+app.component('Modal', Modal);
+app.component('MyAlert', MyAlert);
+app.component('CardDatePicker', CardDatePicker);
+app.component('IftaLabel', IftaLabel);
+app.component('ColorsButton', ColorsButton);
+app.component('Timeline', Timeline);
+app.component('Paginator', Paginator);
+app.component('Accordion', Accordion);
+app.component('AccordionPanel', AccordionPanel);
+app.component('FormWithCascadeSelect', FormWithCascadeSelect);
 
+app.mount('#app');
 
-
-
-export { Button, Modal }
-export { MyAlert };
-export { CardDatePicker };
-export { IftaLabel };
-export { ColorsButton };
-export {Timeline};
-export { Paginator };
-export { Accordion, AccordionPanel };
-export { FormWithCascadeSelect };
-
-
+export { Button, Modal, MyAlert, CardDatePicker, IftaLabel, ColorsButton, Timeline, Paginator, Accordion, AccordionPanel, FormWithCascadeSelect };

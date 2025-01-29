@@ -5,9 +5,10 @@
   "module": "dist/mylibrary.es.js",
   "unpkg": "dist/mylibrary.umd.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vite build"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
   "author": "",
   "license": "ISC",
   "description": "",

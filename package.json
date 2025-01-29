@@ -1,0 +1,22 @@
+{
+  "name": "mylibrary",
+  "version": "1.0.0",
+  "description": "Vue 3 bileşen kütüphanesi",
+  "main": "dist/mylibrary.umd.js",
+  "module": "dist/mylibrary.es.js",
+  "unpkg": "dist/mylibrary.umd.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "rollup": "^4.32.1",
+    "vite": "^6.0.11"
+  }
+}
