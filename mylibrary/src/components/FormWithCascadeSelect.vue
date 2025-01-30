@@ -112,7 +112,7 @@
       showToast.value = false;
     }, 3000);
   };
-  import { z } from "zod";
+  import { z as zod } from "zod";
 
   </script>
   

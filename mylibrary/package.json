@@ -5,15 +5,16 @@
   "module": "dist/mylibrary.es.js",
   "unpkg": "dist/mylibrary.umd.js",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "vue": "^3.5.13"
+    "vue": "^3.5.13",
+    "vue3-datepicker": "^0.4.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
